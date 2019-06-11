@@ -1,0 +1,86 @@
+<div class="wrap ">
+	<div class="countdown">
+		<div class="bloc-time hours" data-init-value="24">
+			<span class="count-title">Hours</span>
+
+			<div class="figure hours hours-1">
+				<span #hours_1_max_el class="top">{{hours_1_min}}</span>
+				<span #hours_1_min_el class="top-back">
+					<span>{{hours_1_max}}</span>
+				</span>
+				<span class="bottom">{{hours_1_min}}</span>
+				<span class="bottom-back">
+					<span>{{hours_1_max}}</span>
+				</span>
+			</div>
+
+			<div  class="figure hours hours-2">
+				<span #hours_2_max_el class="top">{{hours_2_min}}</span>
+				<span #hours_2_min_el class="top-back">
+					<span>{{hours_2_max}}</span>
+				</span>
+				<span class="bottom">{{hours_2_min}}</span>
+				<span class="bottom-back">
+					<span>{{hours_2_max}}</span>
+				</span>
+			</div>
+		</div>
+
+		<div class="bloc-time min" data-init-value="0">
+			<span class="count-title">Minutes</span>
+
+			<div class="figure min min-1">
+				<span #min_1_max_el class="top">{{min_1_min}}</span>
+				<span #min_1_min_el class="top-back">
+					<span>{{min_1_max}}</span>
+				</span>
+				<span class="bottom">{{min_1_min}}</span>
+				<span class="bottom-back">
+					<span>{{min_1_max}}</span>
+				</span>        
+			</div>
+
+			<div class="figure min min-2">
+				<span #min_2_max_el class="top">{{min_2_min}}</span>
+				<span #min_2_min_el class="top-back">
+					<span>{{min_2_max}}</span>
+				</span>
+				<span class="bottom">{{min_2_min}}</span>
+				<span class="bottom-back">
+					<span>{{min_2_max}}</span>
+				</span>
+			</div>
+		</div>
+
+		<div class="bloc-time sec" data-init-value="0">
+			<span class="count-title">Seconds</span>
+
+			<div class="figure sec sec-1">
+				<span #sec_1_max_el class="top">{{sec_1_min}}</span>
+				<span #sec_1_min_el class="top-back">
+					<span>{{sec_1_max}}</span>
+				</span>
+				<span class="bottom">{{sec_1_min}}</span>
+				<span class="bottom-back">
+					<span>{{sec_1_max}}</span>
+				</span>          
+			</div>
+
+			<div class="figure sec sec-2">
+				<span #sec_2_max_el class="top top1">{{sec_2_min}}</span>
+				<span #sec_2_min_el class="top-back top-back1">
+					<span>{{sec_2_max}}</span>
+				</span>
+				<span class="bottom">{{sec_2_min}}</span>
+				<span class="bottom-back">
+					<span>{{sec_2_max}}</span>
+				</span>
+			</div>
+		</div>
+		<div class="text-center">
+			<button class="btn btn-primary d-inline-block"  (click)="start()">Start</button>
+			<button class="btn btn-primary d-inline-block"  (click)="stop()">Stop</button>
+			<button class="btn btn-primary d-inline-block"  (click)="break()">Break</button>
+		</div>
+	</div>
+</div>

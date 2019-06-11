@@ -1,0 +1,48 @@
+.btn-success,
+.btn-info,
+.btn-primary,
+.btn-danger,
+.btn-warning {
+  color: #fff !important;
+}
+
+.bg-primary {
+  color: #fff;
+}
+
+.padtop10 {
+  padding-top: 10px;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #2d2d2d;
+  border: 1px solid #e3e3e3;
+}
+
+.btn-info,
+.btn-primary {
+  background-color: #0e7ed1;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #304a7e;
+}
+
+.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: .8571em;
+    line-height: 1.35em;
+    border: none;
+    margin: 10px 1px;
+    border-radius: .1875rem;
+    padding: 11px 22px;
+    cursor: pointer;
+    color: #fff;
+}
